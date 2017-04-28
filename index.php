@@ -47,6 +47,7 @@
 
 <body>
 
+<!--NAVBAR-->
 <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -78,10 +79,12 @@
 
     </div>
 </div>
+<!--NAVBAR-->
 
 <br>
 <br>
 
+<!--JUMBOTRON-->
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
@@ -97,161 +100,235 @@
         </div>
     </div>
 </div>
+<!--JUMBOTRON-->
 
+<!--TABS-->
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
-            <div class="page-header">
-                <h2>Your Tesla</h2>
-            </div>
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#YourTesla" data-toggle="tab">Your Tesla</a></li>
+                <li><a href="#DeliveryProgress" data-toggle="tab">Delivery Progress</a></li>
+                <li><a href="#Chat" data-toggle="tab">Chat</a></li>
+                <li><a href="#Forms" data-toggle="tab">Forms</a></li>
+                <li><a href="#FAQ" data-toggle="tab">FAQ</a></li>
+                </li>
+            </ul>
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="bs-component">
-                <table class="table table-striped table-hover ">
-                    <thead>
-                    <tr>
-                        <th>Vehicle Details</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>Model</td>
-                        <td>S P85+</td>
-                    </tr>
-                    <tr>
-                        <td>VIN</td>
-                        <td>5YJSA1H13EFP33712</td>
-                    </tr>
-                    <tr>
-                        <td>Year</td>
-                        <td>2014</td>
-                    </tr>
-                    <tr>
-                        <td>Drive</td>
-                        <td>Rear Wheel</td>
-                    </tr>
-                    <tr>
-                        <td>Battery</td>
-                        <td>85 kWh</td>
-                    </tr>
-                    <tr>
-                        <td>Range</td>
-                        <td>265 miles</td>
-                    </tr>
-                    <tr>
-                        <td>0 - 60 MPH</td>
-                        <td>4.2 seconds</td>
-                    </tr>
-                    <tr>
-                        <td>Autopilot</td>
-                        <td>No</td>
-                    </tr>
-                    <tr>
-                        <td>Mileage</td>
-                        <td>37,000</td>
-                    </tr>
-                    <tr>
-                        <td>Price</td>
-                        <td>$62,000</td>
-                    </tr>
-                    </tbody>
-                </table>
+    <!--Tabs-->
+    <div id="myTabContent" class="tab-content">
+
+        <!--Your Tesla-->
+        <div class="tab-pane fade active in" id="YourTesla">
+            <div class="row">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="page-header">
+                            <h2>Your Tesla</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bs-component">
+                        <table class="table table-striped table-hover ">
+                            <thead>
+                            <tr>
+                                <th>Vehicle Details</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Model</td>
+                                <td>S P85+</td>
+                            </tr>
+                            <tr>
+                                <td>VIN</td>
+                                <td>5YJSA1H13EFP33712</td>
+                            </tr>
+                            <tr>
+                                <td>Year</td>
+                                <td>2014</td>
+                            </tr>
+                            <tr>
+                                <td>Drive</td>
+                                <td>Rear Wheel</td>
+                            </tr>
+                            <tr>
+                                <td>Battery</td>
+                                <td>85 kWh</td>
+                            </tr>
+                            <tr>
+                                <td>Range</td>
+                                <td>265 miles</td>
+                            </tr>
+                            <tr>
+                                <td>0 - 60 MPH</td>
+                                <td>4.2 seconds</td>
+                            </tr>
+                            <tr>
+                                <td>Autopilot</td>
+                                <td>No</td>
+                            </tr>
+                            <tr>
+                                <td>Mileage</td>
+                                <td>37,000</td>
+                            </tr>
+                            <tr>
+                                <td>Price</td>
+                                <td>$62,000</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bs-component">
+                        <table class="table table-striped table-hover ">
+                            <thead>
+                            <tr>
+                                <th>Options</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Color</td>
+                                <td>Dolphin Grey</td>
+                            </tr>
+                            <tr>
+                                <td>Wheels</td>
+                                <td>21" Grey Turbine</td>
+                            </tr>
+                            <tr>
+                                <td>Roof</td>
+                                <td>All Glass Panoramic</td>
+                            </tr>
+                            <tr>
+                                <td>Seats</td>
+                                <td>Black Performance Leather Seats</td>
+                            </tr>
+                            <tr>
+                                <td>Decor</td>
+                                <td>Piano Black</td>
+                            </tr>
+                            <tr>
+                                <td>Headliner</td>
+                                <td>White Alcantara</td>
+                            </tr>
+                            <tr>
+                                <td>Free Supercharging</td>
+                                <td><span class="glyphicon glyphicon-ok" aria-hidden=true style="color:green"></td>
+                            </tr>
+                            <tr>
+                                <td>Carbon Fiber Spolier</td>
+                                <td><span class="glyphicon glyphicon-ok" aria-hidden=true style="color:green"></td>
+                            </tr>
+                            <tr>
+                                <td>Red Brake Calipers</td>
+                                <td><span class="glyphicon glyphicon-ok" aria-hidden=true style="color:green"></td>
+                            </tr>
+                            <tr>
+                                <td>Tech Package</td>
+                                <td><span class="glyphicon glyphicon-ok" aria-hidden=true style="color:green"></td>
+                            </tr>
+                            <tr>
+                                <td>Smart Air Suspension</td>
+                                <td><span class="glyphicon glyphicon-ok" aria-hidden=true style="color:green"></td>
+                            </tr>
+                            <tr>
+                                <td>Ultra High Fidelity Sound</td>
+                                <td><span class="glyphicon glyphicon-ok" aria-hidden=true style="color:green"></td>
+                            </tr>
+                            <tr>
+                                <td>Premium Interior Lighting</td>
+                                <td><span class="glyphicon glyphicon-ok" aria-hidden=true style="color:green"></td>
+                            </tr>
+                            <tr>
+                                <td>Subzero Weather Package</td>
+                                <td><span class="glyphicon glyphicon-remove" aria-hidden=true style="color:red"></td>
+                            </tr>
+                            <tr>
+                                <td>Executive Rear Seats</td>
+                                <td><span class="glyphicon glyphicon-remove" aria-hidden=true style="color:red"></td>
+                            </tr>
+                            <tr>
+                                <td>Rear Facing Seats</td>
+                                <td><span class="glyphicon glyphicon-remove" aria-hidden=true style="color:red"></td>
+                            </tr>
+                            <tr>
+                                <td>Dual Chargers</td>
+                                <td><span class="glyphicon glyphicon-remove" aria-hidden=true style="color:red"></td>
+                            </tr>
+                            <tr>
+                                <td>Integrated Center Console</td>
+                                <td><span class="glyphicon glyphicon-remove" aria-hidden=true style="color:red"></td>
+                            </tr>
+                            <tr>
+                                <td>Performance Plus Package</td>
+                                <td><span class="glyphicon glyphicon-ok" aria-hidden=true style="color:green"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-lg-6">
-            <div class="bs-component">
-                <table class="table table-striped table-hover ">
-                    <thead>
-                    <tr>
-                        <th>Options</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>Color</td>
-                        <td>Dolphin Grey</td>
-                    </tr>
-                    <tr>
-                        <td>Wheels</td>
-                        <td>21" Grey Turbine</td>
-                    </tr>
-                    <tr>
-                        <td>Roof</td>
-                        <td>All Glass Panoramic</td>
-                    </tr>
-                    <tr>
-                        <td>Seats</td>
-                        <td>Black Performance Leather Seats</td>
-                    </tr>
-                    <tr>
-                        <td>Decor</td>
-                        <td>Piano Black</td>
-                    </tr>
-                    <tr>
-                        <td>Headliner</td>
-                        <td>White Alcantara</td>
-                    </tr>
-                    <tr>
-                        <td>Free Supercharging</td>
-                        <td><span class="glyphicon glyphicon-ok" aria-hidden=true style="color:green"></td>
-                    </tr>
-                    <tr>
-                        <td>Carbon Fiber Spolier</td>
-                        <td><span class="glyphicon glyphicon-ok" aria-hidden=true style="color:green"></td>
-                    </tr>
-                    <tr>
-                        <td>Red Brake Calipers</td>
-                        <td><span class="glyphicon glyphicon-ok" aria-hidden=true style="color:green"></td>
-                    </tr>
-                    <tr>
-                        <td>Tech Package</td>
-                        <td><span class="glyphicon glyphicon-ok" aria-hidden=true style="color:green"></td>
-                    </tr>
-                    <tr>
-                        <td>Smart Air Suspension</td>
-                        <td><span class="glyphicon glyphicon-ok" aria-hidden=true style="color:green"></td>
-                    </tr>
-                    <tr>
-                        <td>Ultra High Fidelity Sound</td>
-                        <td><span class="glyphicon glyphicon-ok" aria-hidden=true style="color:green"></td>
-                    </tr>
-                    <tr>
-                        <td>Premium Interior Lighting</td>
-                        <td><span class="glyphicon glyphicon-ok" aria-hidden=true style="color:green"></td>
-                    </tr>
-                    <tr>
-                        <td>Subzero Weather Package</td>
-                        <td><span class="glyphicon glyphicon-remove" aria-hidden=true style="color:red"></td>
-                    </tr>
-                    <tr>
-                        <td>Executive Rear Seats</td>
-                        <td><span class="glyphicon glyphicon-remove" aria-hidden=true style="color:red"></td>
-                    </tr>
-                    <tr>
-                        <td>Rear Facing Seats</td>
-                        <td><span class="glyphicon glyphicon-remove" aria-hidden=true style="color:red"></td>
-                    </tr>
-                    <tr>
-                        <td>Dual Chargers</td>
-                        <td><span class="glyphicon glyphicon-remove" aria-hidden=true style="color:red"></td>
-                    </tr>
-                    <tr>
-                        <td>Integrated Center Console</td>
-                        <td><span class="glyphicon glyphicon-remove" aria-hidden=true style="color:red"></td>
-                    </tr>
-                    <tr>
-                        <td>Performance Plus</td>
-                        <td><span class="glyphicon glyphicon-ok" aria-hidden=true style="color:green"></td>
-                    </tr>
-                    </tbody>
-                </table>
+        <!--Your Tesla-->
+
+        <!--Delivery Progress-->
+        <div class="tab-pane fade" id="DeliveryProgress">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-header">
+                        <h2>Delivery Progress</h2>
+                    </div>
+                </div>
             </div>
         </div>
+        <!--Delivery Progress-->
+
+        <!--Chat-->
+        <div class="tab-pane fade" id="Chat">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-header">
+                        <h2>Chat</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Chat-->
+
+        <!--Forms-->
+        <div class="tab-pane fade" id="Forms">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-header">
+                        <h2>Forms</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Forms-->
+
+        <!--FAQ-->
+        <div class="tab-pane fade" id="FAQ">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-header">
+                        <h2>FAQ</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--FAQ-->
+
     </div>
+    <!--Tabs-->
+
 </div>
+<!--TABS-->
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
