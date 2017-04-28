@@ -37,6 +37,10 @@
             width: auto;
         }
 
+        .nav-tabs a{
+            color: red;
+        }
+
         .jumbotron {
             background-image: url("/content/p85.png");
             height: 500px;
@@ -135,7 +139,7 @@
                         <table class="table table-striped table-hover ">
                             <thead>
                             <tr>
-                                <th>Vehicle Details</th>
+                                <th><h3>Vehicle Details</h3></th>
                             </tr>
                             </thead>
                             <tbody>
@@ -145,7 +149,7 @@
                             </tr>
                             <tr>
                                 <td>VIN</td>
-                                <td>5YJSA1H13EFP33712</td>
+                                <td>5YJSA1H13EFPXXXXX</td>
                             </tr>
                             <tr>
                                 <td>Year</td>
@@ -168,7 +172,7 @@
                                 <td>4.2 seconds</td>
                             </tr>
                             <tr>
-                                <td>Autopilot</td>
+                                <td>Autopilot Hardware</td>
                                 <td>No</td>
                             </tr>
                             <tr>
@@ -188,7 +192,7 @@
                         <table class="table table-striped table-hover ">
                             <thead>
                             <tr>
-                                <th>Options</th>
+                                <th><h3>Options</h3></th>
                             </tr>
                             </thead>
                             <tbody>
@@ -270,6 +274,53 @@
                             </tr>
                             </tbody>
                         </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-header">
+                        <h3>Photos</h3>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <a href="/content/exterior1.jpg" target="_blank">
+                                        <img src="/content/exterior1.jpg" style="width:100%">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <a href="/content/exterior2.jpg" target="_blank">
+                                        <img src="/content/exterior2.jpg" style="width:100%">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <a href="/content/exterior3.jpg" target="_blank">
+                                        <img src="/content/exterior3.jpg" style="width:100%">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <a href="/content/interior1.jpg" target="_blank">
+                                        <img src="/content/interior1.jpg" style="width:100%">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <a href="/content/interior2.jpg" target="_blank">
+                                        <img src="/content/interior2.jpg" style="width:100%">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
